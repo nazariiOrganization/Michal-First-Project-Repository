@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+.block {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.red {
+  background: red;
+  color: black;
+}
+.green {
+  background: green;
+  color: black;
+}
+.black {
+  background: black;
+  color: white;
+  font-weight: 300;
+}
